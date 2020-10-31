@@ -1,8 +1,8 @@
 all: toc.txt README.md
 
 # Create table of contents for bash files
-toc.txt:
-	ls *.sh > toc.txt
+toc.txt: bashFiles/
+	ls bashFiles > toc.txt
 
 # Create readme dependent on number of bash files
 README.md: toc.txt
