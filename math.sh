@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Practice simple math expressions
 
 expr 5 + 2
