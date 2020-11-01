@@ -1,2 +1,4 @@
+conditionals.sh
 math.sh
+user_input.sh
 variables.sh
