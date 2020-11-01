@@ -1,7 +1,7 @@
-echo "Type in your Github username:"
+echo "Github username:"
 read git_user
 
-echo "Type in your Github email address:"
+echo "Github email address:"
 read git_email
 
 git config --global user.email $git_email
