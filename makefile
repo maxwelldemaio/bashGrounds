@@ -10,7 +10,7 @@ README.md: toc.txt
 	echo "This repository contains the following number of bash notes:" >> README.md
 	wc -l toc.txt | egrep -o "[0-9]+" >> README.md
 	echo "\nTo update the number of bash notes, run 'make'" >> README.md
-	echo "To setup, run 'install.sh'" >> README.md
+	echo "\nTo setup, run 'install.sh'" >> README.md
 
 clean:
 	rm toc.txt
