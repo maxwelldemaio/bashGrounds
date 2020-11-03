@@ -1,4 +1,8 @@
+arrays.sh
+braces.sh
 conditionals.sh
+for.sh
 math.sh
+txtFiles
 user_input.sh
 variables.sh
