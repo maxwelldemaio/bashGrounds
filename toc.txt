@@ -2,7 +2,10 @@ arrays.sh
 braces.sh
 conditionals.sh
 for.sh
+functions.sh
 math.sh
+nesting.sh
 txtFiles
 user_input.sh
 variables.sh
+while.sh
