@@ -3,6 +3,7 @@ braces.sh
 conditionals.sh
 for.sh
 functions.sh
+helloworld
 math.sh
 nesting.sh
 txtFiles
