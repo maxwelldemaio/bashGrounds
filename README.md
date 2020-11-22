@@ -1,7 +1,7 @@
 **Bash practice and testing grounds**
 
 This repository contains the following number of bash files in bashNotes/:
-12
+10
 
 To update the table of contents/number of bash files, run 'make'
 

@@ -2,7 +2,7 @@ all: toc.txt README.md
 
 # Create table of contents for bash notes
 toc.txt: bashNotes/
-	ls bashNotes > toc.txt
+	ls bashNotes/*.sh > toc.txt
 
 # Create readme dependent on number of bash notes
 README.md: toc.txt
