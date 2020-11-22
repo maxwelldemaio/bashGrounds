@@ -3,7 +3,7 @@
 This repository contains the following number of bash files in bashNotes/:
 10
 
-To update the table of contents/number of bash files, run 'make'
+To update the readme/table of contents, run 'make clean' and then 'make'
 
 To setup your Github username/email, run 'git_setup.sh'
 
