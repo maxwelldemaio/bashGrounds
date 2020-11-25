@@ -1,7 +1,7 @@
 #!/bin/bash
 
-### Create symlinks from the home dir to any desired dotfiles in ${homedir}/bashGrounds
-### Create a folder in the home dir called 'MyCodingFiles'
+### Create symlinks from the home dir to any desired dotfiles
+### Location of symlinks will be in ${homedir}/bashGrounds
 
 ## Symlinks
 
@@ -14,7 +14,4 @@ homedir=$1
 
 # Dotfiles directory
 dotfiledir=${homedir}/bashGrounds
-
-
-## MyCodingFiles directory
 
