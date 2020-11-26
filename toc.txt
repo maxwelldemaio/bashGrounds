@@ -3,6 +3,7 @@ bashNotes/braces.sh
 bashNotes/conditionals.sh
 bashNotes/for.sh
 bashNotes/functions.sh
+bashNotes/guessinggame.sh
 bashNotes/math.sh
 bashNotes/nesting.sh
 bashNotes/user_input.sh
