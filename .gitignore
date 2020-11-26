@@ -1,1 +1,6 @@
+# Compiled Python files
+*.pyc
+
+# Private information
 .private
+.gitconfig
