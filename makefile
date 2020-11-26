@@ -7,11 +7,11 @@ toc.txt: bashNotes/
 # Create readme dependent on number of bash notes
 README.md: toc.txt
 	echo "**Bash practice and testing grounds**\n" > README.md
-	echo "This repository contains the following number of bash files in bashNotes/:" >> README.md
+	echo "- This repository contains the following number of bash files in bashNotes/:" >> README.md
 	wc -l toc.txt | egrep -o "[0-9]+" >> README.md
-	echo "\nTo update the readme/table of contents, run 'make clean' and then 'make'" >> README.md
-	echo "\nTo setup your Github username/email, run 'git_setup.sh'" >> README.md
-	echo "\nTo setup the dev toolbox, run 'install.sh' and '. ./source.sh'" >> README.md
+	echo "\n- To update the readme/table of contents, run 'make clean' and then 'make'" >> README.md
+	echo "\n- To setup your Github username/email, run 'git_setup.sh'" >> README.md
+	echo "\n- To setup the dev toolbox, run 'install.sh' and '. ./source.sh'" >> README.md
 
 clean:
 	rm toc.txt
