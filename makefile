@@ -6,7 +6,7 @@ toc.txt: bashNotes/
 
 # Create readme dependent on number of bash notes
 README.md: toc.txt
-	echo "**Bash practice and testing grounds**\n" > README.md
+	echo "**Bash practice and personalized dotfiles**\n" > README.md
 	echo "- This repository contains the following number of bash files in bashNotes/:" >> README.md
 	wc -l toc.txt | egrep -o "[0-9]+" >> README.md
 	echo "\n- To update the readme/table of contents, run 'make clean' and then 'make'" >> README.md

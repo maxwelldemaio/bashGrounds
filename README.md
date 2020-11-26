@@ -1,4 +1,4 @@
-**Bash practice and testing grounds**
+**Bash practice and personalized dotfiles**
 
 - This repository contains the following number of bash files in bashNotes/:
 11
