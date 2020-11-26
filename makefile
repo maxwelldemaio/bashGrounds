@@ -11,7 +11,7 @@ README.md: toc.txt
 	wc -l toc.txt | egrep -o "[0-9]+" >> README.md
 	echo "\nTo update the readme/table of contents, run 'make clean' and then 'make'" >> README.md
 	echo "\nTo setup your Github username/email, run 'git_setup.sh'" >> README.md
-	echo "\nTo setup the dev toolbox, run 'install.sh'" >> README.md
+	echo "\nTo setup the dev toolbox, run 'install.sh' and '. ./source.sh'" >> README.md
 
 clean:
 	rm toc.txt
