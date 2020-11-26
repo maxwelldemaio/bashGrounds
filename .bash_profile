@@ -22,3 +22,7 @@ alias ggr="git log --reverse --pretty=format:'%C(bold red)%h%Creset -%C(bold yel
 alias gcp="git cherry-pick"
 alias gbg="git bisect good"
 alias gbb="git bisect bad"
+
+# Windows dev
+alias wmcode="cd ~/Desktop/MyCodingFiles"
+
