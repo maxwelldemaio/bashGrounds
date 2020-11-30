@@ -1,7 +1,7 @@
 **Bash practice and personalized dotfiles**
 
 - This repository contains the following number of bash files in bashNotes/:
-11
+12
 
 - To update the readme/table of contents, run 'make clean' and then 'make'
 

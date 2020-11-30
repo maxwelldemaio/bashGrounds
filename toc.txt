@@ -1,6 +1,7 @@
 bashNotes/arrays.sh
 bashNotes/braces.sh
 bashNotes/conditionals.sh
+bashNotes/copyToServer.sh
 bashNotes/for.sh
 bashNotes/functions.sh
 bashNotes/guessinggame.sh
